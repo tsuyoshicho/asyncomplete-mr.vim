@@ -16,7 +16,7 @@ function! asyncomplete#sources#mrr#completor(opt, ctx) abort
 
   let l:cache = mr#mrr#list()
 
-  " call filter(l:cache, {v -> match(v.word, '\c^' . escape(l:kw, '\')) != -1})
+  call filter(l:cache, {idx, v -> match(v.word, '\c^' . escape(l:kw, '\')) != -1})
 
   call asyncomplete#complete(a:opt['name'], a:ctx, l:startcol, l:cache)
 endfunction
