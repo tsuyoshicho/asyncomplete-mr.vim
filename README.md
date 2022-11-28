@@ -1,6 +1,6 @@
 # asyncomplete-mr.vim
 
-[asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) plugin for [mr.vim](https://github.com/lambdalisue/mr.vim) source.
+[mr.vim](https://github.com/lambdalisue/mr.vim) source for [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) plugin.
 
 ## Settings
 
