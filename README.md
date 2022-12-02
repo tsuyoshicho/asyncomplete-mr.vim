@@ -2,6 +2,10 @@
 
 [mr.vim](https://github.com/lambdalisue/mr.vim) source for [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) plugin.
 
+## Example
+
+![example 1](https://github.com/tsuyoshicho/asyncomplete-mr.vim/blob/assets/images/example1.gif)
+
 ## Settings
 
 ```vim
