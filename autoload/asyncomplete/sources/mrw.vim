@@ -7,7 +7,7 @@
 scriptencoding utf-8
 
 function! asyncomplete#sources#mrw#completor(opt, ctx) abort
-  call asyncomplete#sources#mr#util#completor_helper(a:opt, a:ctx, 'mrw', mr#mrw#list())
+  call asyncomplete#mr#util#completor_helper(a:opt, a:ctx, 'mrw', mr#mrw#list())
 endfunction
 
 function! asyncomplete#sources#mrw#get_source_options(opts) abort

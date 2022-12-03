@@ -6,7 +6,7 @@
 
 scriptencoding utf-8
 
-function! asyncomplete#sources#mr#util#completor_helper(opt, ctx, name, list) abort
+function! asyncomplete#mr#util#completor_helper(opt, ctx, name, list) abort
   let l:typed = a:ctx['typed']
   let l:col = a:ctx['col']
 
